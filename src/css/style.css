@@ -371,6 +371,10 @@ main {
         height: 100px;
         justify-content: space-around;
     }
+    .logo img {
+        height: 100%;
+    }
+    
     .contacti {
         width: 60%;
     }
