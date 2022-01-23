@@ -1,11 +1,11 @@
 body {
     font-family: Arial, sans-serif;
-    min-width: 19
+    background: #dadada;
 }
 
 .verhushka {
     display: flex;
-   
+   justify-content: center;
     width: 100%;
     height: 250px;
     background: #2d2d2d;
@@ -34,7 +34,9 @@ body {
 }
 
 .logo {
-    float: left;
+    display: flex;
+    justify-content: center;
+    
     height: 100%;
     width: 30%;
     color: #99e712;
@@ -43,7 +45,7 @@ body {
 
 .logo img {
     
-    height: 100%;
+    ;
 }
 
 .inoe {
@@ -63,7 +65,7 @@ body {
 
 nav {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     padding: 5px;
     height: 40px;
@@ -71,10 +73,14 @@ nav {
     background: #414141;
 }
 
+.menu1 {
+    display: flex;
+    
+}
 
 .menu1 a {
-    padding-left: 60px;
-    padding-right: 60px;
+    
+    
     font-size: 15px;   
     text-align: center;
     text-transform: uppercase;
@@ -84,7 +90,7 @@ nav {
 main {
   
     width: 100%;
-    height: 3000px;
+    height: 100%;
     background: #dadada;
 }
 
@@ -96,6 +102,11 @@ main {
     width: 100%;
     height: 400px;
     background: #ffffff;
+}
+
+.caruseli1 {
+    display: flex;
+    justify-items: center;
 }
 
 .karuseli img {
@@ -135,7 +146,7 @@ main {
 }
 .foto_works {
     display: flex;
-    justify-items: center;
+    justify-content: center;
     flex-wrap: wrap;
     justify-items: center;
     padding-left: 30%;
@@ -149,8 +160,8 @@ main {
     width: 120px;
     height: 120px;
 
- 
-    margin-right: 100px;
+    margin-bottom: 80px;
+    margin-right: 80px;
 }
 
 .views_text {
@@ -167,6 +178,7 @@ main {
     color: #1e3350;
     font-weight: 300;
     text-shadow: 0 1px 4px;
+    padding-top: 24px;
 }
 
 .views_foto {
