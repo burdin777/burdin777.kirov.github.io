@@ -364,3 +364,78 @@ main {
     padding-top: 40px;
     color: rgb(153,231,18);
 }
+
+@media (max-width: 720px){
+    .verhushka {
+        width: 100%;
+        height: 100px;
+        justify-content: space-around;
+    }
+    .contacti {
+        width: 60%;
+    }
+    .inoe {
+        display: none;
+    }
+    .information{
+        margin-left: 15px;
+    }
+    
+    .menu1 a {
+        font-size: 11px;
+    }
+    
+    .foto_works{
+        padding-left: 6%;
+        justify-content: flex-start;
+    }
+    
+    .views {
+        width: 120px;
+        margin-right: 55px;
+    }
+    
+    .info {
+        padding-left: 6%;
+        margin-top: 100px;
+    }
+    
+    .obratniy_zvonok {
+        padding-left: 6%;
+    }
+    .zvonok {
+        flex-wrap: nowrap;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .zvonok2 {
+        height: 30%;
+    }
+    
+    .zvonok2 h4 {
+        font-size: 15px;
+        padding-top: 5px;
+    }
+    .zvonok2 h7 {
+        font-size: 15px;
+        padding-top: 0;
+    }
+    
+    .zvonok1 h4 {
+        font-size: 15px;
+        padding-top: 5px;
+    }
+    
+    .title_number input{
+        height: 30px;
+    }
+    .title_name input {
+        height: 30px;
+    }
+    .title_email input {
+        height: 30px;
+    }
+    .input_message input {
+        margin-left: -20px;
+    }
+}
