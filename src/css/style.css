@@ -43,6 +43,7 @@ body {
     font-size: 50px;
 }
 
+
 .inoe {
     display: flex;
     justify-content: flex-start;
@@ -52,10 +53,9 @@ body {
 .inoe img {
     height: 230px;
 }
-.stolIstul {
-    
-}
+
 .contacti {
+    
     display: flex;
     justify-content: flex-end;
     height: 100%;
@@ -65,9 +65,11 @@ body {
     float: right;
     padding-right: 20px;
 }
+
 .contacti img {
     width: 30px;
 }
+
 .contacti p {
      text-align: end;   
 }
@@ -118,7 +120,7 @@ main {
     
     
     width: 100%;
-    height: 400px;
+    height: 100%;
     background: #ffffff;
 }
 
@@ -240,7 +242,8 @@ main {
 }
 
 .zvonok {
-    float: left;
+    display: flex;
+    justify-content: space-around;
     width: 90%;
     height: 100%;
     background: #ffffff;
@@ -249,13 +252,17 @@ main {
 }
 
 .zvonok1 {
-    float: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
     width: 50%;
     height: 100%;
 }
 
 .zvonok2 {
-    float: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
     width: 50%;
     height: 100%;
 }
@@ -273,14 +280,20 @@ main {
 }
 
 .title_name {
+    display: flex;
+    justify-content: center;
    margin-top: 30px;
 }
 
 .title_number {
+    display: flex;
+    justify-content: center;
    margin-top: 30px;
 }
 
 .title_email {
+    display: flex;
+    justify-content: center;
     margin-top: 30px;
     margin-bottom: 30px;
 }
@@ -380,4 +393,83 @@ main {
 .podval p {
     padding-top: 40px;
     color: rgb(153,231,18);
+}
+
+@media (max-width: 720px){
+    .verhushka {
+        width: 100%;
+        height: 100px;
+        justify-content: space-around;
+    }
+    .logo img {
+        height: 100%;
+    }
+    
+    .contacti {
+        width: 60%;
+    }
+    .inoe {
+        display: none;
+    }
+    .information{
+        margin-left: 15px;
+    }
+    
+    .menu1 a {
+        font-size: 11px;
+    }
+    
+    .foto_works{
+        padding-left: 6%;
+        justify-content: flex-start;
+    }
+    
+    .views {
+        width: 120px;
+        margin-right: 55px;
+    }
+    
+    .info {
+        padding-left: 6%;
+        margin-top: 100px;
+    }
+    
+    .obratniy_zvonok {
+        padding-left: 6%;
+    }
+    .zvonok {
+        flex-wrap: nowrap;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .zvonok2 {
+        height: 30%;
+    }
+    
+    .zvonok2 h4 {
+        font-size: 15px;
+        padding-top: 5px;
+    }
+    .zvonok2 h7 {
+        font-size: 15px;
+        padding-top: 0;
+    }
+    
+    .zvonok1 h4 {
+        font-size: 15px;
+        padding-top: 5px;
+    }
+    
+    .title_number input{
+        height: 30px;
+    }
+    .title_name input {
+        height: 30px;
+    }
+    .title_email input {
+        height: 30px;
+    }
+    .input_message input {
+        max-width: 100%;
+    }
 }
