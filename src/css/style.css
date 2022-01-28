@@ -478,6 +478,12 @@ main {
         font-size: 11px;
     }
     
+    .left_menu {
+        display: none;
+    }
+    .left_menu2 {
+        display: none;
+    }
     .foto_works{
         padding-left: 6%;
         justify-content: flex-start;
@@ -490,7 +496,7 @@ main {
     
     .info {
         padding-left: 6%;
-        margin-top: 100px;
+        margin-top: 250px;
     }
     
     .obratniy_zvonok {
